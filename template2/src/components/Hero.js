@@ -1,7 +1,7 @@
 import React from 'react'
 import herobg from '../assets/hero.png'
-import title from '../assets/title.svg'
 import icongroup from '../assets/icongroup.png'
+import title from '../assets/title.svg'
 
 const Hero = () => {
   return (
@@ -10,7 +10,7 @@ const Hero = () => {
         backgroundImage: `url(${herobg})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        height: '50%',
+        height: '840px',
         width: '100%',
         display: 'flex',
         flexDirection: 'row',
@@ -32,7 +32,7 @@ const Hero = () => {
         <h1 style={{ scale: '1.2', marginTop: '5%', marginBottom: '5%' }}>
           What is Lorem Ipsum?
         </h1>
-        <div style={{ width: '520px' }}>
+        <div style={{ width: '750px' }}>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -52,6 +52,8 @@ const Hero = () => {
             width: '192px',
             margin: '5% auto',
             border: 'none',
+            paddingTop: '2.5%',
+            paddingBottom: '2.5%',
             color: 'white',
             backgroundColor: '#50B2EA',
             fontSize: '18px',
