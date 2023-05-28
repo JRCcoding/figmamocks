@@ -83,6 +83,7 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
+  height: 763px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -151,15 +152,18 @@
 }
 
 /*  SecondaryServices.js  */
+.secondary-subcontainer {
+  padding: 0 13%;
+  background-color: #F2F2F2;
+}
 .secondary-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 100%;
-  margin: 0 auto;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-right: 5%;
+  height: 284px;
+  padding: 2% 0;
   background: #F2F2F2;
+
 }
 
 .secondary-section {
@@ -175,22 +179,142 @@
 }
 
 .secondary-section-text {
-  width: 65%;
+  width: 46%;
   margin: 0 auto;
   font-size: 15px;
   line-height: 22px;
 }
 
 .secondary-button-container {
-  width: 100%;
+  position: relative;
+  top: -100px;
+  display: flex;
 }
 
 .secondary-button {
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid white;
+  background-color: #50B2EA;
+  height: 54px;
+  width: 160px;
+  border-radius: 10px;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #ffffff;
+}
 
+/*  Testymonials.js  */
+
+.testy-container {
+  background-color: #50B2EA;
+  height: 718px;
+  font-family: Poppins, sans-serif;
+}
+
+.testy-title{ 
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  color: white;
+  text-align: center;
+  padding-top: 3.5%;
+}
+
+.testy-card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1.5% 17%;
+}
+
+.testy-card{
+  background: #ffffff;
+  border-radius: 40px;
+  width: 577px;
+  height: 233px;
+  display: flex;
+}
+
+.testy-profile {
+  margin: 5%;
+}
+
+.testy-card-title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #50B2EA;
+  margin: 5% 0 3% 0;
+}
+
+
+.testy-card-text{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #19435a;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.testy-rating{}
+
+.testy-star{}
+
+/*  Contact.js  */
+.contact-container {
+  font-family: Poppins, sans-serif;
+}
+
+.contact-title {
+  color: #50B2EA;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  margin: 2.5%;
+}
+
+.contact-options {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
   margin-left: auto;
   margin-right: auto;
 }
 
+.contact-input {
+  background-color: #50B2EA;
+  opacity: 50%;
+  margin-bottom: 14px;
+  border: none;
+  border-radius: 40px;
+  height: 64px;
+  width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-button-final {
+  background-color: #50B2EA;
+  height: 64px;
+  width: 148px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  border: none; margin-bottom: 5%;
+}
+
+
+/*  Footer.js  */
+.footer {
+  background-color: #19435a;
+  height: 80px;
+}
+/*----------------------------MEDIA QUERY----------------------------*/
 
 @media (max-width: 500px) {
   /*  Hero.js  */
@@ -249,6 +373,10 @@
   }
 
   /*  SecondaryServices.js  */
+  .secondary-subcontainer {
+
+  }
+
   .secondary-container {
 
   }
@@ -264,4 +392,7 @@
   .secondary-section-text {
 
   }
+
+  /*  Testymonials.js  */
+
 }
