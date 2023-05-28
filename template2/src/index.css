@@ -1,17 +1,267 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;700;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;700;600;400&display=swap');
 * {
   margin: 0;
 }
-h1, h2, h3, h4, h5 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 800;
+
+/*  Hero.js  */
+.hero-container {
+  background-image: url(./assets/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 840px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-.button {
-  font-family: 'Poppins', sans-serif;
+
+.hero-subcontainer {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.hero-button {
+  border-radius: 8px;
+  height: 62px;
+  width: 192px;
+  margin: 5% auto;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  color: white;
+  background-color: #50B2EA;
+  font-size: 18px;
+  border: none;
+  font-family: Poppins, sans-serif;
   font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.hero-logo {
+  height: 81px;
   
 }
-p {
+
+.hero-title {
+  scale: 1.2;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 56.88px;
+}
+
+.hero-text {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*  Main.js  */
+.main-container {
+  height: 763px;
+  padding: 10%;
+  background: linear-gradient(90deg, #F2F2F2 54%, #50B2EA 0%);
+}
+
+.main-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-box-text {
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  height: 509px;
+  width: 699px;
+  background-color: #50B2EA;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -.2%;
+}
+
+.main-box-image {
+  height: 509px;
+  width: 559px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+}
+
+.main-button-container {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 1799px;
+  left: 843px;
+}
+
+.main-button {
+  border-radius: 8px;
+  height: 62px;
+  width: 192px;
+  margin: 5% auto;
+  border: 2px solid white;
+  color: white;
+  background-color: #50B2EA;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+/*  Services.js  */
+
+.services-container {
+  background: #50B2EA;
+  background-image: url(./assets/pipes.png);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-title {
+  margin-top: 5%;
+  margin-bottom: 4%;
+  font-size: 48px;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+/*  SecondaryServices.js  */
+.secondary-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 5%;
+  background: #F2F2F2;
+}
+
+.secondary-section {
+  text-align: center;
+  font-family: Poppins, sans-serif;
+}
+
+.secondary-section-title {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 2.5%;
+  color: #50B2EA;
+}
+
+.secondary-section-text {
+  width: 65%;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.secondary-button-container {
+  width: 100%;
+}
+
+.secondary-button {
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (max-width: 500px) {
+  /*  Hero.js  */
+  .hero-container {
+
+  }
+
+  .hero-subcontainer {
+
+  }
+
+  .hero-logo {
+
+  }
+
+  .hero-title {
+
+  }
+
+  .hero-button {
+
+  }
+
+
+  /*  Main.js  */
+  .main-container {
+    
+  }
+
+  .main-box {
+  }
+
+  .main-box-text {
+
+  }
+
+  .main-box-image {
+
+  }
+
+  .main-button-container {
+
+  }
+
+  .main-button {
+
+  }
+
+  /*  Services.js  */
+  .services-container {
+
+  }
+
+  .services-title {
+    
+  }
+
+  /*  SecondaryServices.js  */
+  .secondary-container {
+
+  }
+
+  .secondary-section {
+
+  }
+
+  .secondary-section-title {
+
+  }
+
+  .secondary-section-text {
+
+  }
 }
