@@ -155,6 +155,7 @@
 .secondary-subcontainer {
   padding: 0 13%;
   background-color: #F2F2F2;
+  height: 284px;
 }
 .secondary-container {
   display: flex;
@@ -187,7 +188,7 @@
 
 .secondary-button-container {
   position: relative;
-  top: -100px;
+  top: -135px;
   display: flex;
 }
 
@@ -256,7 +257,7 @@
   font-size: 14px;
   line-height: 22px;
   color: #19435a;
-  margin-right: 5%;
+  margin-right: 13%;
   margin-bottom: 5%;
 }
 
@@ -394,5 +395,36 @@
   }
 
   /*  Testymonials.js  */
+  .testy-container {}
+
+  .testy-title{}
+
+  .testy-card-container{}
+
+  .testy-card{}
+
+  .testy-profile{}
+
+  .testy-card-title{}
+
+  .testy-card-text{}
+
+  .testy-rating{}
+
+  .testy-star{}
+
+  /*  Contact.js  */
+  .contact-container{}
+
+  .contact-title{}
+
+  .contact-options{}
+
+  .contact-input{}
+
+  .contact-button-final{}
+
+  /*  Footer  */
+  .footer {}
 
 }
