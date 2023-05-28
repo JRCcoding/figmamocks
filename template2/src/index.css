@@ -2,6 +2,10 @@
 * {
   margin: 0;
 }
+body {
+  overflow-x: hidden;
+
+}
 
 /*  Hero.js  */
 .hero-container {
@@ -9,7 +13,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 840px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -151,6 +155,10 @@
   text-align: center;
 }
 
+.services-image {
+ margin-bottom: 3%;   
+}
+
 /*  SecondaryServices.js  */
 .secondary-subcontainer {
   padding: 0 13%;
@@ -160,7 +168,9 @@
 .secondary-container {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 76%;
+  margin-left: auto;
+  margin-right: auto;
   height: 284px;
   padding: 2% 0;
   background: #F2F2F2;
@@ -221,14 +231,14 @@
   line-height: 72px;
   color: white;
   text-align: center;
-  padding-top: 3.5%;
+  padding-top: 2.5%;
 }
 
 .testy-card-container{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 1.5% 17%;
+  margin: 2.5% 17%;
 }
 
 .testy-card{
@@ -315,24 +325,34 @@
   background-color: #19435a;
   height: 80px;
 }
-/*----------------------------MEDIA QUERY----------------------------*/
+/*----------------------------MEDIA QUERIES----------------------------*/
 
 @media (max-width: 500px) {
   /*  Hero.js  */
   .hero-container {
-
+    height: 600px;
+    /* width: 100vw; */
+    background-position: center;
   }
 
   .hero-subcontainer {
-
+    scale: .7;
   }
 
   .hero-logo {
+    margin-top: -5%;
 
   }
 
   .hero-title {
 
+  }
+
+  .hero-text {
+    font-size: 25px;
+    line-height: 34px;
+    margin-top: -3%;
+    font-weight: 400;
   }
 
   .hero-button {
@@ -342,18 +362,25 @@
 
   /*  Main.js  */
   .main-container {
-    
+    background: linear-gradient(90deg, #f2f2f2 50%, #50B2EA 0%)
   }
 
   .main-box {
+    width: 60vh;
+    height: 50vh;
   }
 
   .main-box-text {
-
+    scale: .5;
+    position: absolute;
+    right: -95px;
   }
 
   .main-box-image {
-
+    scale: .4;
+    position: absolute;
+    left: 31px;
+    top: 91.6%;
   }
 
   .main-button-container {
@@ -361,16 +388,19 @@
   }
 
   .main-button {
-
+    position: fixed;
   }
 
   /*  Services.js  */
   .services-container {
-
   }
 
   .services-title {
-    
+  scale: .5;    
+  }
+  .services-image {
+    scale: .4;
+    margin-bottom: -10%;
   }
 
   /*  SecondaryServices.js  */

@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div className='services-container'>
       <h1 className='services-title'>Services</h1>
-      <img src={services} alt='services' style={{ marginBottom: '5%' }} />
+      <img src={services} alt='services' className='services-image' />
     </div>
   )
 }
