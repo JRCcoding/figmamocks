@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  position: absolute;
+
+}
+body {
+  overflow-x: hidden;
+  font-family: TT Hoves, sans-serif;
+
+}
+
+.hero-container {
+  height: 840px;
+  width: 100vw;
+
+}
+
+.hero-container::before {
+  background-image: url(./assets/bikes.jpg);
+  background-size: 50%;
+  position: absolute;
+  content: "";
+  top: 50px;
+  right: 0;
+  left: -450px;
+  bottom: 0;
+  opacity: .2;
+}
+
+.hero-logo {
+  height: 61px;
+  width: 419.31px;
+  position: absolute;
+  top: 50px;
+  left: 352px;
+}
+
+.hero-title-container {
+   height: 86px;
+   width: 476px;
+   position: absolute;
+   top: 301px;
+   left: 352px;
+}
+.hero-pre-title {
+ font-weight: 500;
+ color: #E15252;
+ font-size: 36px;
+ line-height: 36px;
+}
+
+.hero-title {
+  font-size: 47px;
+  line-height: 47.23px;
+  color: #333333;
+  bottom: 0;
+}
+
+.hero-text {
+  width: 425px;
+  height: 68px;
+  position: absolute;
+  top: 416px;
+  left: 352px;
+  font-weight: 500;
+  font-size: 14px;  
+  color: #333333;
+
+}
+
+.hero-button {
+  width: 160px;
+  height: 46px;
+  top: 514px;
+  left: 352px;
+  position: absolute;
+
+  border-radius: 42px;
+  color: #ffffff;
+  border: none;
+  background: #E15252;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.hero-image-container {
+  overflow: hidden;
+  height: 840px;
+  width: 100vw;
+}
+
+.hero-image {
+  left: 952px;
+  z-index: 50;
+  position: absolute;
+
+}
+
+.hero-ellipse {
+  z-index: 49;
+  background: #E15252;
+  border-radius: 50%;
+  height: 1450px;
+  width: 1450px;
+  left: 901px;
+  top: -249px;  position: absolute;
+
+}
+
+.services-container {
+  height: 840px;
+}
+
+.services-title-container {
+  height: 292px;
+  width: 698px;
+  left: 560px;
+  top: 840px;  position: absolute;
+
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 50px 50px;
+}
+
+.services-title {
+  position: relative;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64.32px;
+}
+
+.services-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  color: #E15252;
+}
+
+.services-display {
+
+}
+
+.service {
+
+}
+
+.service-image {
+
+}
+
+.service-content {
+
+}
+
+.service-title {
+
+}
+
+.service-text {
+
+}
