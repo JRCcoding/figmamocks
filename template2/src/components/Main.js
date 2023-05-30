@@ -18,9 +18,9 @@ const Main = () => {
             <img src={plumber} alt='plumber' className='main-box-image' />
           </div>
         </div>
-      </div>
-      <div className='main-button-container'>
-        <button className='main-button'>Help Me</button>
+        <div className='main-button-container'>
+          <button className='main-button'>Help Me</button>
+        </div>
       </div>
     </>
   )

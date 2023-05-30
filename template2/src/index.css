@@ -116,9 +116,6 @@ body {
 .main-button-container {
   display: flex;
   justify-content: space-around;
-  position: absolute;
-  top: 1799px;
-  left: 843px;
 }
 
 .main-button {
